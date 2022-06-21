@@ -1,0 +1,25 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+iface eth0 inet dhcp
+
+
+#the management interface
+auto eth0:0
+iface eth0:0 inet static
+address 10.0.0.31
+netmask 255.255.255.0
+gateway 10.0.0.1
+
+
+#the instance tunnels interface
+auto eth0:1
+iface eth0:1 inet static
+address 10.0.1.31
+netmask 255.255.255.0

@@ -1,0 +1,3 @@
+tasks:
+ -name install kvm 
+  apt pkg=kvm state=latest

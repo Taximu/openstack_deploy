@@ -1,0 +1,8 @@
+[controller]
+stream24:22
+
+[network]
+stream25:22
+
+[compute1]
+stream26:22
