@@ -9,3 +9,6 @@ It is an automated installation of Openstack platform.
     cd /root && git clone https://github.com/Taximu/openstack_deploy.git && sudo apt-get install -y fabric
 ## Setup for deploy/testing
     ssh ubuntu@controller && cd root/openstackdeploy/deploy && fab <openstack_launch_deploy> || fab <function_name>
+
+## For more information please see:
+https://cloudpenguin.blogspot.com/2015/05/experience-with-ubuntuopenstack.html
